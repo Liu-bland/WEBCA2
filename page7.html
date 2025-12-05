@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit successfully</title>
+    <style>
+        html, body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #00c8ff 0%, #0800ff 100%);
+        }
+        .navbar {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 12px 20px;
+            display: flex;
+            gap: 10px; 
+        }
+        .nav-button {
+            flex: 1; 
+            padding: 8px 0; 
+            border: none;
+            border-radius: 4px;
+            background: white;
+            color: #5a67d8;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center; 
+        }
+       h1 {
+            font-size: 150px;
+            text-shadow: 5px 5px 5px #00f7ff;
+            font-weight: 800;
+            color: white; 
+            text-align: center;
+            margin: 0;
+        }
+        h2 {
+            font-size: 50px;
+            text-shadow: 5px 5px 5px #00f7ff;
+            font-weight: 800;
+            color: white; 
+            text-align: center;
+            margin: 0;
+        }
+        /* 父容器设置text-align:center */
+        .video-container {
+            text-align: center; /* 核心：让行内块元素水平居中 */
+            width: 100%; /* 父容器占满宽度，确保居中范围 */
+        }
+        /* 可选：限制视频宽度，避免超出屏幕 */
+        video {
+            width: 80%; /* 按需调整，比如600px、80%等 */
+            max-width: 1300px; /* 最大宽度，适配大屏 */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html" class="nav-button">Home</a>
+        <a href="./p2_ai_healthcare.html" class="nav-button">healthcare</a>
+        <a href="./p3_ai_autonomous.html" class="nav-button">autonomous</a>
+        <a href="./p4_ai_entertainment.html" class="nav-button">entertainmen</a>
+        <a href="./p5_future_of_ai.html" class="nav-button">future</a>
+        <a href="./form.html" class="nav-button">contact us</a>
+    </nav>
+    <main>
+        <br><br><br>
+        <div>
+            <audio src="./One-thousand-years-later.MP3" controls></audio><p>[One thousand years later] by JJ LIN</p>
+        </div>
+        <br><br><br>
+        <div>
+            <h1>Submit successfully</h1>
+        </div>
+        <br><br><br><br><br>
+        <div>
+            <h2>You need to relax!</h2>
+        </div>
+        <br><br><br>
+        <div class="video-container">
+        <video src="./一千年以后-JJLIN.mp4" autoplay controls loop></video>
+        <br>
+        <video src="./1350918513-1-192.mp4" autoplay controls loop></video>
+        </div>
+        <br><br><br>
+        <div>
+           Audio/video source: <a href="https://www.bilibili.com/video/BV19dsrzpExw?t=435.3" target="_blank">Bilibili platform "Honor of Kings"</a>
+           <br>
+           <a href="https://www.bilibili.com/video/BV1y64y1L79d?t=0.5" target="_blank">Bilibili platform "Honor of Kings"</a>
+        </div>
+    </main>
+</body>
+</html>
